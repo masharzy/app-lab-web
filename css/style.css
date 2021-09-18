@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-section{
+    background-image:url(../images/hero-bg.png);
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner-section .container{
+    padding-top: 150px;
+}
+#mobile-1{
+    width: 300px;
+    position: absolute;
+    top: -105px;
+    right: 0;
+}
+img.card-img-top {
+    width: 70px;
+    margin-left: 10px;
+}
+.card{
+    border: none;
+}
+
+.button{
+    background:#2500F9;
+    width: 153px; 
+    height: 50px;
+    color: white !important; 
+    border-radius: 33px; 
+    padding: 12px, 36px, 12px, 36px !important;
+    float: left;
+    border: none;
+    text-align: center;
+}
+.price-btn-container {
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 28.5px;
+    margin: auto;
+}
+.card li{
+    line-height: 50px;
+}
+.card-header{
+    background: linear-gradient(#FDFEFE,#F4F7F9);
+}
+.card-border{
+    border: 1px solid #ddd;
+}
+.card-border:hover{
+    box-shadow: 5px 30px 40px rgb(0 0 0 / 10%);
+    background: #FFFFFF;
+    transition: all .5s;
+}
+
+
+
+
+.content{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.row-1{
+    flex-basis: 49%;
+}
+.row-1 img{
+    width: 500px;
+    margin-top: 100px;
+}
+.row-2{
+    flex-basis: 45%;
+    margin-top: 100px;
+}
+.row-2 h2{
+    text-align: left;
+    font-size: 45px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+.row-2 p{
+    color: #95a5a6;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+
+.icon img{
+    width: 80px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #09142E;
+}
+.head span{
+    color: rgb(241, 163, 16);
+}
+.head{
+    color: white;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.main{
+    text-align: center;
+    padding-top: 50px;
+}
+.main .icon-btn{
+    color: #273043;
+    font-size: 1.5rem;
+
+}
+.main .icon-btn i{
+    margin: 10px;
+}
+.main .icon-btn i:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.5);
+}
+.copy{
+    color: #373b46;
+}
+
+
+
+
+
+
+.jackpot-section{
+    margin-top: 100px;
+}
+.main-section{
+    width: 1140px;
+    margin:0 auto;
+}
+.first_section{
+    /* width: 80%; */
+    height: 200px;  
+    /* margin: 0 100px;    */
+}
+ .first_hading{
+    float: left;  
+    color: #242f51;
+    font-size: 40px;
+}
+.line_brack{
+    width: 1px;
+    height: 90px;
+    background-color: #4b4a48;
+    float: left;
+    margin: 30px 30px 0px 150px;
+}
+.first_pragraph{
+    padding: 45px 0 0 10px;    
+    float: right;
+    line-height: 20px;
+    color: #a59e9e;
+}
+.secent_section{
+    margin-top: 50px;
+}
+.network_effect, .automatic_payouts, .bigger_rewards{
+    float: left;
+    width: 380px;
+}
+.network_effect img, .automatic_payouts img, .bigger_rewards img{
+    margin-bottom: 20px;
+}
+.network_effect h4{
+    color: #2563ff;
+ 
+ }
+.bigger_rewards h4{
+    color: #40975f;
+    
+}
+.automatic_payouts h4{
+    color: #f55767;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contain{
+    width: 1140px;
+    margin: 0 auto;  
+    /* background-color: #ddd;   */
+}
+.first_h2{
+    text-align: center;
+}
+.first_p{
+    text-align: center;
+    color: rgb(124, 122, 124);
+}
+.section_too{
+    width: 960px;
+    margin: 0 100px;
+}
+.section_three{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #ecf8ec;
+}
+.secunt_p{
+    text-align: justify;
+    color: rgb(124, 122, 124);
+}
+.first_list ul{
+    list-style: none;
+}
+.first_list ul li{
+    padding: 20px;
+    color: rgb(54, 51, 44);
+    background-color: #ecf8ec;
+    font-weight: bold;
+    margin-top: 10px;
+}
+b{
+    float: right;
+    /* font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px; */
+}
+
+
+
+
+
+.awesome-apps-section{
+    margin-top: 100px;
+}
+
+
+.team-icons i{
+    color: #dee1e6;
+    border: 1px solid #dee1e6;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.team-icons i:hover{
+    background-color: #eff3f8;
+    color: #2500f9;
+    transition: .5s;
+    transform: rotate(360deg);
+}
+.team-icons{
+    margin-left: 150px;
+    margin-top: 20px;
+}
